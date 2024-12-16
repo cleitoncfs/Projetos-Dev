@@ -122,3 +122,14 @@ footer a:hover {
     color: #0056b3;
     text-decoration: underline;
 }
+
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2rem; /* Ajuste para tablets */
+    }
+}
+@media (max-width: 480px) {
+    header h1 {
+        font-size: 1.5rem; /* Ajuste para smartphones */
+    }
+}
